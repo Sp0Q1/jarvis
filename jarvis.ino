@@ -61,6 +61,9 @@ void DisplayInit(void)
   M5.Lcd.fillScreen(BLACK);
   M5.Lcd.setTextColor(GREEN);
   M5.Lcd.setTextSize(2);
+
+  M5.Lcd.fillCircle(100, 120, 50, WHITE);
+  M5.Lcd.fillCircle(206, 120, 40, WHITE);
 }
 
 void SpeakInit(void)
